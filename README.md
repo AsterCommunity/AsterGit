@@ -22,11 +22,15 @@ AsterGit 的长期目标不是做一个只会接受 `git push` 的 SSH 服务，
 - [平台架构图](developer-docs/zh-CN/architecture/platform-architecture-diagrams.md)
 - [RFC-0001：平台架构](developer-docs/zh-CN/architecture/rfcs/0001-astergit-platform-architecture.md)
 - [RFC-0002：技术栈与部署 Profile](developer-docs/zh-CN/architecture/rfcs/0002-astergit-technology-stack-and-deployment-profiles.md)
-- [RFC-0003：身份、组织与授权](developer-docs/zh-CN/architecture/rfcs/0003-identity-organizations-and-authorization.md)
-- [RFC-0004：仓库存储与 Git Transport](developer-docs/zh-CN/architecture/rfcs/0004-repository-storage-and-git-transport.md)
-- [RFC-0005：Worker、Runner、事件与制品](developer-docs/zh-CN/architecture/rfcs/0005-workers-runners-events-and-artifacts.md)
+- [RFC-0003：身份、组织与授权](developer-docs/zh-CN/architecture/rfcs/0003-astergit-identity-organizations-and-authorization.md)
+- [RFC-0004：仓库存储与 Git Transport](developer-docs/zh-CN/architecture/rfcs/0004-astergit-repository-storage-and-git-transport.md)
+- [RFC-0005：Worker、Runner、事件与制品](developer-docs/zh-CN/architecture/rfcs/0005-astergit-workers-runners-events-and-artifacts.md)
+- [RFC-0006：代码协作](developer-docs/zh-CN/architecture/rfcs/0006-astergit-code-collaboration.md)
+- [RFC-0007：LFS、Release 与 Package Registry](developer-docs/zh-CN/architecture/rfcs/0007-astergit-lfs-releases-and-package-registry.md)
+- [RFC-0008：可用性、备份与灾难恢复](developer-docs/zh-CN/architecture/rfcs/0008-astergit-availability-backup-and-disaster-recovery.md)
+- [RFC-0009：安全与供应链](developer-docs/zh-CN/architecture/rfcs/0009-astergit-security-and-supply-chain.md)
 
-后续 RFC 会覆盖代码协作模型、LFS/Package Registry、可用性与灾备、安全与供应链。当前仓库只保存设计，不代表这些 RFC 所描述的能力已经实现。
+当前仓库处于 RFC 设计阶段，不代表这些 RFC 所描述的能力已经实现、完成协议兼容或完成生产部署。
 
 ## 设计原则
 
